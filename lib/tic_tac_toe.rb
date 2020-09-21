@@ -1,3 +1,16 @@
+def play(board)
+  turn(board) until over?(board)
+  if won?(board)
+    puts "Congratulations #{winner(board)}!"
+  elsif draw?(board)
+    puts "Draw!"
+  end
+end
+
+
+
+
+
 WIN_COMBINATIONS = [
   [0,1,2],
   [0,3,6],
