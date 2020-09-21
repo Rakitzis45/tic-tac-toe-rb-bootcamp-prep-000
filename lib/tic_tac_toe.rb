@@ -63,3 +63,12 @@ def turn_count(board)
   end
   turns
 end
+
+def display_board
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+display_board
